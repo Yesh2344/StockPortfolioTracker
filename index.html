@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Portfolio Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#add-stock">Add Stock</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <table id="portfolio-table">
+                <thead>
+                    <tr>
+                        <th>Stock Symbol</th>
+                        <th>Quantity</th>
+                        <th>Current Price</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody id="portfolio-body">
+                </tbody>
+            </table>
+        </section>
+        <section id="add-stock">
+            <h2>Add Stock</h2>
+            <form id="add-stock-form">
+                <label for="stock-symbol">Stock Symbol:</label>
+                <input type="text" id="stock-symbol" name="stock-symbol">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity">
+                <button type="submit">Add Stock</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

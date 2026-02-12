@@ -1,0 +1,16 @@
+{
+    "name": "StockPortfolioTracker",
+    "version": "1.0.0",
+    "description": "A modern web application for tracking stock portfolios.",
+    "main": "index.html",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "dotenv": "^10.0.0"
+    }
+}
