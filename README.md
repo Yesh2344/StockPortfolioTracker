@@ -32,3 +32,5 @@ Pull requests are welcome. Please make sure to update the tests and documentatio
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for more information.
+
+Additional details added.
